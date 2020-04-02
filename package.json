@@ -2,7 +2,7 @@
   "name": "group-memo",
   "version": "0.0.1",
   "description": "Share your memos in your family, your friends or any kind of groups.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,10 @@
   "homepage": "https://github.com/tct-i15fujimura1s/group-memo#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.8",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
   }
 }
